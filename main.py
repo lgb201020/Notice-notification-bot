@@ -4,8 +4,8 @@ from datetime import datetime
 import time
 
 
-URL = "https://eei.jbnu.ac.kr/eei/10634/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGZWVpJTJGMTEwMCUyRmFydGNsTGlzdC5kbyUzRg%3D%3D"
-mytoken = "xoxb-6386561975127-6423902697472-OJ0cgqSYYFqXMOTiGj9ZtOV9"
+URL = "학과 홈페이지 공지사항 url"
+mytoken = "slack-bot token"
 
 def to_find_notice(url):
     res =  requests.get(url)
